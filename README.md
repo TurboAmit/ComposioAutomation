@@ -38,12 +38,16 @@ The test is designed to run both locally and in a continuous integration (CI) en
     - Install the required Node.js packages using npm:
       ```bash
       npm install
-      ```
+    - Install the required dotenv packages using:
+      ```bash
+      npm install dotenv
+      ``````
 
 4. **Run the Test Locally**
     - Execute the Playwright test script:
       ```bash
-      npm test
+      npm install playwright
+      npx playwright test
       ```
 
 ## Guidelines to Run on Any Machine
